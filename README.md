@@ -16,11 +16,11 @@ Original App Design Project - README Template
 ### App Evaluation
 [Evaluation of your app across the following attributes]
 - **Category: Finance**
-- **Mobile: **
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Mobile: This app will only be focused for phones however can be implement for computer/tablet use**
+- **Story: The app will fetch the ethereum address and retrive the nfts that are linked to the specific adress and user will be able to track the price of the nfts that are linked to the ethereum address      **
+- **Market: Someone who would download this app is someone who is invested into nfts and they want a really easy way to track how their portfolio is performing. **
+- **Habit:This app can lead someone to accessing this app multple times throughout the day as they would want to constantly monitor there assests performance.**
+- **Scope:We would first focus on monitoring  nft collection then possibley start to monitor cryptocurrency's. **
 
 ## Product Spec
 
