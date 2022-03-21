@@ -15,8 +15,8 @@ Original App Design Project - README Template
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
+- **Category: Finance**
+- **Mobile: **
 - **Story:**
 - **Market:**
 - **Habit:**
