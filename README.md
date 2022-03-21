@@ -28,22 +28,35 @@ Original App Design Project - README Template
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User must enter in the ethereum address in the homescreen.
+* User can pick what collection they would like to view and see the value of that specific collection.
+* Users can also browse colections that are treding for the week.
+* Users then can click on the trending collection and view its value. 
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* Users can see a chart of the top collection of the week at the home page.
+* Users can see a chart on how they are doing after inserting there adress.
+
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Home Screen
+   * User will enter there eth address to vier their portfolio.
+   * Users will be able to view the top collection of the week..
+   
+* Inserting Address
+   * This screen will show how the user is performing for their nft portfolio
+   * The user will be able to select the collections they own and that will lead to the tapping on collection screen.
+
+
+* Browse
+   * the user will be given a new screen and they will be able to view the top week collection base on how the collection is performing.
+   * if the user clicks on the collection it will lead to the tapping on collection screen.
+
+* Tapping on collection
+   * this screen will show what the price of the nft is.
+   * users will be able to view the nft they own on this screen.
 
 ### 3. Navigation
 
