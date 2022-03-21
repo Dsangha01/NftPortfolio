@@ -48,9 +48,9 @@ Original App Design Project - README Template
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
-First Tab (back button) - navigates back to previous screen
-Second Tab (home button) - navigates back to landing/home screen
-Third Tab (browse button) - navigates to a browsing screen to view all NFT collections
+* First Tab (back button) - navigates back to previous screen
+* Second Tab (home button) - navigates back to landing/home screen
+* Third Tab (browse button) - navigates to a browsing screen to view all NFT collections
 
 **Flow Navigation** (Screen to Screen)
 * [Home/Landing Screen]
@@ -61,8 +61,7 @@ Third Tab (browse button) - navigates to a browsing screen to view all NFT colle
    * Tapping on a collection on the browse screen will show the NFTs of the collection and their listed prices.
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="https://gyazo.com/2e726c00d0abe978f4c2695345851f8a" width=600>
+![image](https://user-images.githubusercontent.com/66891025/159196180-e8ab9fa8-03d4-4aa0-9a07-1db0d8b10574.png)
 
 ### [BONUS] Digital Wireframes & Mockups
 
