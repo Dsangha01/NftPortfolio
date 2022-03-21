@@ -11,7 +11,8 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-[Description of your app]
+
+An app to track your nfts value in one place and used to see how a nft collection is performing.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
