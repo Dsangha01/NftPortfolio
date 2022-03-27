@@ -114,6 +114,70 @@ An app to track your nfts value in one place and used to see how a nft collectio
 
 
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+**List of network requests by screen**
+1. Home Screen Feed
+   - (Read/GET) Query the NFT collections held by an Ethereum address
+   ```
+   let query = PFQuery(className:"Address")
+    query.whereKey("author", equalTo: currentUser)
+    query.order(byDescending: "createdAt")
+    query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+       if let error = error { 
+          print(error.localizedDescription)
+       } else if let collections = collections {
+          print("Successfully retrieved \(addressCollections.count) addressCollections.")
+      // TODO: Do something with addressCollections...
+       }
+    }
+    ```
+2. Portfolio Page
+   - (Read/GET) Query the stats pertaining to the collections and calculate value given `floor_price`
+   ```
+   let query = PFQuery(className:"Collections")
+    query.whereKey("author", equalTo: currentUser)
+    query.order(byDescending: "createdAt")
+    query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+       if let error = error { 
+          print(error.localizedDescription)
+       } else if let collection = collection {
+          print("Successfully retrieved \(nftCollection.count) nftCollection.")
+      // TODO: Do something with nftCollection...
+       }
+    }
+    ```
+3. Detailed Collection Page
+   - (Read/GET) Query the statistics (volume, market_cap, floor_price) pertaining to an NFT collection and display it
+   ```
+   let query = PFQuery(className:"Collections")
+    query.whereKey("author", equalTo: currentUser)
+    query.order(byDescending: "createdAt")
+    query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+       if let error = error { 
+          print(error.localizedDescription)
+       } else if let collection = collection {
+          print("Successfully retrieved \(nftCollection.count) nftCollection.")
+      // TODO: Do something with nftCollection...
+       }
+    }
+    ```
+3. Broad Overview Collection Page
+   - (Read/GET) Query and display the top NFT collections (according to volume) and their stats
+   ```
+   let query = PFQuery(className:"Collections")
+    query.whereKey("author", equalTo: currentUser)
+    query.order(byDescending: "createdAt")
+    query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+       if let error = error { 
+          print(error.localizedDescription)
+       } else if let collection = collection {
+          print("Successfully retrieved \(nftCollection.count) nftCollection.")
+      // TODO: Do something with nftCollection...
+       }
+    }
+    ```
+ 
+**OpenSea API endpoints utilized**
+Retrieving collections - https://api.opensea.io/api/v1/collections
+Retrieving a single collection - https://api.opensea.io/api/v1/collection/{collection_slug}
+Retrieving collection stats - https://api.opensea.io/api/v1/collection/{collection_slug}/stats
+
