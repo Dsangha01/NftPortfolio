@@ -177,7 +177,7 @@ An app to track your nfts value in one place and used to see how a nft collectio
     ```
  
 **OpenSea API endpoints utilized**
-Retrieving collections - https://api.opensea.io/api/v1/collections
-Retrieving a single collection - https://api.opensea.io/api/v1/collection/{collection_slug}
-Retrieving collection stats - https://api.opensea.io/api/v1/collection/{collection_slug}/stats
+- Retrieving collections - https://api.opensea.io/api/v1/collections
+- Retrieving a single collection - https://api.opensea.io/api/v1/collection/{collection_slug}
+- Retrieving collection stats - https://api.opensea.io/api/v1/collection/{collection_slug}/stats
 
