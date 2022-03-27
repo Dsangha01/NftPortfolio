@@ -88,7 +88,7 @@ An app to track your nfts value in one place and used to see how a nft collectio
 | ------------- |------------| -------------|
 | Collections   | Dictionary | A dictionary containing the NFT collections held by this address |
 
-Collection
+**Collection**
 | Property      | Type       | Description  |
 | ------------- |------------| -------------|
 | name   | String | Collection name |
@@ -98,7 +98,19 @@ Collection
 | traits   | Dictionary | A dictionary listing all the trait types available within this collection |
 | stats   | Dictionary | A dictionary containing some sales statistics related to this collection, including trade volume and floor prices |
 
-
+**Collection Stats**
+| Property      | Type       | Description  |
+| ------------- |------------| -------------|
+| one_day_volume   | Number | One day ETH volume |
+| one_day_change   | Number | Change in ETH volume (today compared to previous day) |
+| one_day_sales   | Number | Number of sales for the day |
+| one_day_average_price   | Number | Average sale price for the day |
+| seven_day_volume   | Number | One week ETH volume |
+| seven_day_change   | Number | Change in ETH volume (current week compared to previous week) |
+| seven_day_sales   | Number | Number of sales for the week |
+| seven_day_average_price   | Number | Average sale price for the week |
+| thirty_day_volume   | Number | 30 day ETH sales volume |
+| thirty_day_change   | Number | Change in ETH volume (current 30 days compared to previous 30 days) |
 
 
 ### Networking
