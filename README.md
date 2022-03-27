@@ -82,9 +82,25 @@ An app to track your nfts value in one place and used to see how a nft collectio
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+**Ethereum Address**
+| Property      | Type       | Description  |
+| ------------- |------------| -------------|
+| Collections   | Dictionary | A dictionary containing the NFT collections held by this address |
+
+Collection
+| Property      | Type       | Description  |
+| ------------- |------------| -------------|
+| name   | String | Collection name |
+| description   | String | Description of the collection |
+| slug   | String | Link to OpenSea page (will be used for GET requests to retrieve collection stats) |
+| image_url   | String | Collection image |
+| traits   | Dictionary | A dictionary listing all the trait types available within this collection |
+| stats   | Dictionary | A dictionary containing some sales statistics related to this collection, including trade volume and floor prices |
+
+
+
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
