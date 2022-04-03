@@ -180,6 +180,6 @@ An app to track your nfts value in one place and used to see how a nft collectio
 - Retrieving a single collection - https://api.opensea.io/api/v1/collection/{collection_slug}
 - Retrieving collection stats - https://api.opensea.io/api/v1/collection/{collection_slug}/stats
 
-**Sprint 1**
-Initial layout from Sprint 1
-https://recordit.co/UkoDlxbMbTa.gif
+**Sprint 1 Progress**
+![Alt Text](https://recordit.co/UkoDlxbMbTa.gif)
+
