@@ -28,8 +28,7 @@ An app to track your nfts value in one place and used to see how a nft collectio
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-
-* User must enter in the ethereum address in the homescreen.
+* User must enter in the ethereum address in the homescreen. [x]
 * User can pick what collection they would like to view and see the value of that specific collection.
 * Users can also browse colections that are treding for the week.
 * Users then can click on the trending collection and view its value. 
@@ -37,7 +36,7 @@ An app to track your nfts value in one place and used to see how a nft collectio
 **Optional Nice-to-have Stories**
 
 * Users can see a chart of the top collection of the week at the home page.
-* Users can see a chart on how they are doing after inserting there adress.
+* Users can see a chart on how they are doing after inserting there address.
 
 
 ### 2. Screen Archetypes
@@ -181,3 +180,6 @@ An app to track your nfts value in one place and used to see how a nft collectio
 - Retrieving a single collection - https://api.opensea.io/api/v1/collection/{collection_slug}
 - Retrieving collection stats - https://api.opensea.io/api/v1/collection/{collection_slug}/stats
 
+**Sprint 1**
+Initial layout from Sprint 1
+https://recordit.co/UkoDlxbMbTa.gif
