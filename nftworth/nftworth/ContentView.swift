@@ -11,6 +11,7 @@ struct ContentView: View {
     @State private var ethAddress: String = ""
     
     var body: some View {
+        NavigationView{
         VStack {
             // Title and Input
             VStack {
@@ -27,9 +28,28 @@ struct ContentView: View {
                 .padding()
                 .multilineTextAlignment(.center)
                 .overlay(RoundedRectangle(cornerRadius: 20).stroke())
-                .frame(width: 350, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                .frame(width: 350, height: 100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center)
+                
+                NavigationLink(destination: PortfolioView()) {
+                    Text("Submit")
+                        .foregroundColor(Color.blue)
+                    
+                
+                }
+                
+                
+          
             }
             .padding(.bottom, 400.0)
+            
+            
+            
+           
+            
+            
+            
+            
+            
             
             // Collections
             VStack {
@@ -127,13 +147,19 @@ struct ContentView: View {
                         print("pressed")
                     }
                 }
+                }
             }
         }
     }
 }
 
+
+
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+    ContentView()
+
     }
+
 }

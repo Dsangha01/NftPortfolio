@@ -3,16 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0502CCD9DBB2D317C391771E /* Pods_nftworth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 424E4F021974415C10FC6CA1 /* Pods_nftworth.framework */; };
 		0909537027F9D4FB00AAB816 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909536F27F9D4FB00AAB816 /* AppDelegate.swift */; };
 		0909537227F9D4FB00AAB816 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909537127F9D4FB00AAB816 /* SceneDelegate.swift */; };
 		0909537427F9D4FB00AAB816 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0909537327F9D4FB00AAB816 /* ContentView.swift */; };
 		0909537627F9D4FC00AAB816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0909537527F9D4FC00AAB816 /* Assets.xcassets */; };
 		0909537927F9D4FC00AAB816 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0909537827F9D4FC00AAB816 /* Preview Assets.xcassets */; };
 		0909537C27F9D4FC00AAB816 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0909537A27F9D4FC00AAB816 /* LaunchScreen.storyboard */; };
+		2F0A5F6027FD268B003A2F20 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0A5F5F27FD268B003A2F20 /* PortfolioView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,10 @@
 		0909537827F9D4FC00AAB816 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0909537B27F9D4FC00AAB816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0909537D27F9D4FC00AAB816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10727F65D3176614925D38A8 /* Pods-nftworth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nftworth.release.xcconfig"; path = "Target Support Files/Pods-nftworth/Pods-nftworth.release.xcconfig"; sourceTree = "<group>"; };
+		2F0A5F5F27FD268B003A2F20 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		424E4F021974415C10FC6CA1 /* Pods_nftworth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nftworth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		642E89645E1AF2B0011129F5 /* Pods-nftworth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nftworth.debug.xcconfig"; path = "Target Support Files/Pods-nftworth/Pods-nftworth.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0502CCD9DBB2D317C391771E /* Pods_nftworth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,7 +48,8 @@
 			isa = PBXGroup;
 			children = (
 				0909536E27F9D4FB00AAB816 /* nftworth */,
-				0909536D27F9D4FB00AAB816 /* Products */,
+				53D4470A3597BA88F291E536 /* Pods */,
+				E301EA4F05FA4A2C1B3C71AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,11 +59,13 @@
 				0909536C27F9D4FB00AAB816 /* nftworth.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		0909536E27F9D4FB00AAB816 /* nftworth */ = {
 			isa = PBXGroup;
 			children = (
+				2F0A5F5F27FD268B003A2F20 /* PortfolioView.swift */,
 				0909536F27F9D4FB00AAB816 /* AppDelegate.swift */,
 				0909537127F9D4FB00AAB816 /* SceneDelegate.swift */,
 				0909537327F9D4FB00AAB816 /* ContentView.swift */,
@@ -63,6 +73,7 @@
 				0909537A27F9D4FC00AAB816 /* LaunchScreen.storyboard */,
 				0909537D27F9D4FC00AAB816 /* Info.plist */,
 				0909537727F9D4FC00AAB816 /* Preview Content */,
+				0909536D27F9D4FB00AAB816 /* Products */,
 			);
 			path = nftworth;
 			sourceTree = "<group>";
@@ -75,6 +86,23 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		53D4470A3597BA88F291E536 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				642E89645E1AF2B0011129F5 /* Pods-nftworth.debug.xcconfig */,
+				10727F65D3176614925D38A8 /* Pods-nftworth.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E301EA4F05FA4A2C1B3C71AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				424E4F021974415C10FC6CA1 /* Pods_nftworth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0909538027F9D4FC00AAB816 /* Build configuration list for PBXNativeTarget "nftworth" */;
 			buildPhases = (
+				DB6444072F2D38252875842E /* [CP] Check Pods Manifest.lock */,
 				0909536827F9D4FB00AAB816 /* Sources */,
 				0909536927F9D4FB00AAB816 /* Frameworks */,
 				0909536A27F9D4FB00AAB816 /* Resources */,
+				A9A86C7DE72CFAA43ADDE987 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,6 +170,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A9A86C7DE72CFAA43ADDE987 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nftworth/Pods-nftworth-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nftworth/Pods-nftworth-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nftworth/Pods-nftworth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB6444072F2D38252875842E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nftworth-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0909536827F9D4FB00AAB816 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -148,6 +220,7 @@
 				0909537027F9D4FB00AAB816 /* AppDelegate.swift in Sources */,
 				0909537227F9D4FB00AAB816 /* SceneDelegate.swift in Sources */,
 				0909537427F9D4FB00AAB816 /* ContentView.swift in Sources */,
+				2F0A5F6027FD268B003A2F20 /* PortfolioView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +356,7 @@
 		};
 		0909538127F9D4FC00AAB816 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 642E89645E1AF2B0011129F5 /* Pods-nftworth.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -304,6 +378,7 @@
 		};
 		0909538227F9D4FC00AAB816 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10727F65D3176614925D38A8 /* Pods-nftworth.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
