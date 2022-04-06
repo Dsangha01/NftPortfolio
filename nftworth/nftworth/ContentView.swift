@@ -54,26 +54,36 @@ struct ContentView: View {
             // Collections
             VStack {
                 // Title
-                Text("Collections")
+                Text("Featured Collections")
                     .fontWeight(.bold)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .font(.title2)
                     .foregroundColor(Color.black)
                 
                 // Collections Placeholder for now. TODO: Create another view file for collections
+                
+                
+                
+                
+                
+                
+                
+                
+                
                 HStack {
                     Button(action: {
                         print("Placeholder")
                     }) {
-                        Text("Collection here")
+                        Text("Bored Ape Yacht Club")
                             .padding()
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .overlay(RoundedRectangle(cornerRadius: 20).stroke())
                     }
                     Button(action: {
-                        print("Placeholder")
+                        print("Mutant Ape Yacht Club")
                     }) {
-                        Text("Collection here")
+                        Text("Mutant Ape Yacht Club ")
+                            .multilineTextAlignment(.center)
                             .padding()
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .overlay(RoundedRectangle(cornerRadius: 20).stroke())
@@ -81,35 +91,18 @@ struct ContentView: View {
                 }
                 HStack {
                     Button(action: {
-                        print("Placeholder")
+                        print("Azuki")
                     }) {
-                        Text("Collection here")
+                        Text("         Azuki")
+                            .multilineTextAlignment(.center)
                             .padding()
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .overlay(RoundedRectangle(cornerRadius: 20).stroke())
                     }
                     Button(action: {
-                        print("Placeholder")
+                        print("CryptoPunks")
                     }) {
-                        Text("Collection here")
-                            .padding()
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .overlay(RoundedRectangle(cornerRadius: 20).stroke())
-                    }
-                }
-                HStack {
-                    Button(action: {
-                        print("Placeholder")
-                    }) {
-                        Text("Collection here")
-                            .padding()
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .overlay(RoundedRectangle(cornerRadius: 20).stroke())
-                    }
-                    Button(action: {
-                        print("Placeholder")
-                    }) {
-                        Text("Collection here")
+                        Text("  CryptoPunks")
                             .padding()
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .overlay(RoundedRectangle(cornerRadius: 20).stroke())
@@ -117,17 +110,53 @@ struct ContentView: View {
                 }
                 HStack {
                     Button(action: {
-                        print("Placeholder")
+                        print("CLONE X")
                     }) {
-                        Text("Collection here")
+                        Text("      CLONE X")
                             .padding()
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .overlay(RoundedRectangle(cornerRadius: 20).stroke())
                     }
                     Button(action: {
-                        print("Placeholder")
+                        print("Meebits")
                     }) {
-                        Text("Collection here")
+                        Text("       Meebits")
+                            .padding()
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .overlay(RoundedRectangle(cornerRadius: 20).stroke())
+                    }
+                }
+                HStack {
+                    Button(action: {
+                        print("Doodles")
+                    }) {
+                        Text("      Doodles")
+                            .padding()
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .overlay(RoundedRectangle(cornerRadius: 20).stroke())
+                    }
+                    Button(action: {
+                        print("MURI by Haus")
+                    }) {
+                        Text(" MURI by Haus")
+                            .padding()
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .overlay(RoundedRectangle(cornerRadius: 20).stroke())
+                    }
+                }
+                HStack {
+                    Button(action: {
+                        print("Cool Cats NFT")
+                    }) {
+                        Text("  Cool Cats NFT")
+                            .padding()
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .overlay(RoundedRectangle(cornerRadius: 20).stroke())
+                    }
+                    Button(action: {
+                        print("CyberBrokers")
+                    }) {
+                        Text(" CyberBrokers")
                             .padding()
                             .frame(maxWidth: .infinity, alignment: .leading)
                             .overlay(RoundedRectangle(cornerRadius: 20).stroke())
@@ -140,11 +169,19 @@ struct ContentView: View {
             // Bottom Taskbar
             .toolbar {
                 ToolbarItemGroup(placement: .bottomBar) {
-                    Button("First") {
-                        print("pressed")
+                    NavigationLink(destination: CoinTrackerView()) {
+                            Text("Coin Tracker")
+                                .foregroundColor(Color.blue)
+
                     }
-                    Button("Second") {
-                        print("pressed")
+                    
+                    NavigationLink(destination: SearchCollectionView()) {
+                            Text("Search Collection")
+                                .foregroundColor(Color.blue)
+                            
+                        
+                        
+                        
                     }
                 }
                 }

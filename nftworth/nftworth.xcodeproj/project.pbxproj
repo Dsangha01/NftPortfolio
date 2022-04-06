@@ -15,6 +15,8 @@
 		0909537927F9D4FC00AAB816 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0909537827F9D4FC00AAB816 /* Preview Assets.xcassets */; };
 		0909537C27F9D4FC00AAB816 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0909537A27F9D4FC00AAB816 /* LaunchScreen.storyboard */; };
 		2F0A5F6027FD268B003A2F20 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0A5F5F27FD268B003A2F20 /* PortfolioView.swift */; };
+		2F0A5F6227FD2E3B003A2F20 /* SearchCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0A5F6127FD2E3B003A2F20 /* SearchCollectionView.swift */; };
+		2F0A5FA127FD5543003A2F20 /* CoinTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0A5FA027FD5543003A2F20 /* CoinTrackerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		0909537D27F9D4FC00AAB816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10727F65D3176614925D38A8 /* Pods-nftworth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nftworth.release.xcconfig"; path = "Target Support Files/Pods-nftworth/Pods-nftworth.release.xcconfig"; sourceTree = "<group>"; };
 		2F0A5F5F27FD268B003A2F20 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		2F0A5F6127FD2E3B003A2F20 /* SearchCollectionView.swift */ = {isa = PBXFileReference; indentWidth = 8; lastKnownFileType = sourcecode.swift; path = SearchCollectionView.swift; sourceTree = "<group>"; tabWidth = 9; };
+		2F0A5FA027FD5543003A2F20 /* CoinTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinTrackerView.swift; sourceTree = "<group>"; };
 		424E4F021974415C10FC6CA1 /* Pods_nftworth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nftworth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		642E89645E1AF2B0011129F5 /* Pods-nftworth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nftworth.debug.xcconfig"; path = "Target Support Files/Pods-nftworth/Pods-nftworth.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,10 +69,12 @@
 		0909536E27F9D4FB00AAB816 /* nftworth */ = {
 			isa = PBXGroup;
 			children = (
-				2F0A5F5F27FD268B003A2F20 /* PortfolioView.swift */,
 				0909536F27F9D4FB00AAB816 /* AppDelegate.swift */,
 				0909537127F9D4FB00AAB816 /* SceneDelegate.swift */,
 				0909537327F9D4FB00AAB816 /* ContentView.swift */,
+				2F0A5F5F27FD268B003A2F20 /* PortfolioView.swift */,
+				2F0A5F6127FD2E3B003A2F20 /* SearchCollectionView.swift */,
+				2F0A5FA027FD5543003A2F20 /* CoinTrackerView.swift */,
 				0909537527F9D4FC00AAB816 /* Assets.xcassets */,
 				0909537A27F9D4FC00AAB816 /* LaunchScreen.storyboard */,
 				0909537D27F9D4FC00AAB816 /* Info.plist */,
@@ -217,8 +223,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F0A5FA127FD5543003A2F20 /* CoinTrackerView.swift in Sources */,
 				0909537027F9D4FB00AAB816 /* AppDelegate.swift in Sources */,
 				0909537227F9D4FB00AAB816 /* SceneDelegate.swift in Sources */,
+				2F0A5F6227FD2E3B003A2F20 /* SearchCollectionView.swift in Sources */,
 				0909537427F9D4FB00AAB816 /* ContentView.swift in Sources */,
 				2F0A5F6027FD268B003A2F20 /* PortfolioView.swift in Sources */,
 			);

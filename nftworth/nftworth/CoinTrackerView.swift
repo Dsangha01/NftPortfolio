@@ -8,19 +8,27 @@
 import SwiftUI
 import Foundation
 
-struct PortfolioView: View {
+
+
+
+
+
+
+
+
+
+struct CoinTrackerView: View {
     var body: some View {
         VStack{
             Text("Hello World")
             
-            
-            
-            
-            
-            
-                .navigationTitle("Your Portfolio")
+
+    
+                .navigationTitle("Ethereum Value")
         }
     }
 }
+
+
 
 
