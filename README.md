@@ -30,7 +30,7 @@ An app to track your nfts value in one place and used to see how a nft collectio
 **Required Must-have Stories**
 * [x] User must enter in the ethereum address in the homescreen.
 * [ ] User can pick what collection they would like to view and see the value of that specific collection.
-* [ ] Users can also browse colections that are treding for the week.
+* [ ] Users can also browse colections that are trending for the week.
 * [ ] Users then can click on the trending collection and view its value. 
 
 **Optional Nice-to-have Stories**
@@ -182,4 +182,6 @@ An app to track your nfts value in one place and used to see how a nft collectio
 
 **Sprint 1 Progress**
 * <img src='https://recordit.co/eVXSnFO0Sh.gif' title='Sprint 1 Walkthrough' width='' alt='Video Walkthrough' />
+
+**Sprint 2 Progress**
 
