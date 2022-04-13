@@ -42,7 +42,7 @@ An app to track your nfts value in one place and used to see how a nft collectio
 ### 2. Screen Archetypes
 
 * Home Screen
-   * User will enter there eth address to vier their portfolio.
+   * User will enter there etherium address to vier their portfolio.
    * Users will be able to view the top collection of the week..
    
 * Inserting Address
