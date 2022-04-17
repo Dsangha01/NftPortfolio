@@ -192,4 +192,4 @@ An app to track your nfts value in one place and used to see how a nft collectio
 
 <img src='http://g.recordit.co/849xO4QyMF.gif' title='Sprint 3 Walkthrough' width='' alt='Video Walkthrough' />
 
-<img src='https://g.recordit.co/T8cDU377K9.gif' title='Sprint 3 Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://recordit.co/QGSuVvbO11.gif' title='Sprint 3 Walkthrough 2' width='' alt='Video Walkthrough' />
