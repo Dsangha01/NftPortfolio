@@ -17,6 +17,7 @@
 		2F0A5F6027FD268B003A2F20 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0A5F5F27FD268B003A2F20 /* PortfolioView.swift */; };
 		2F0A5F6227FD2E3B003A2F20 /* SearchCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0A5F6127FD2E3B003A2F20 /* SearchCollectionView.swift */; };
 		2F0A5FA127FD5543003A2F20 /* CoinTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0A5FA027FD5543003A2F20 /* CoinTrackerView.swift */; };
+		2FB2F5BE280BA89E00184214 /* BoredApeYachtClubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB2F5BD280BA89E00184214 /* BoredApeYachtClubView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		2F0A5F5F27FD268B003A2F20 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
 		2F0A5F6127FD2E3B003A2F20 /* SearchCollectionView.swift */ = {isa = PBXFileReference; indentWidth = 8; lastKnownFileType = sourcecode.swift; path = SearchCollectionView.swift; sourceTree = "<group>"; tabWidth = 9; };
 		2F0A5FA027FD5543003A2F20 /* CoinTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinTrackerView.swift; sourceTree = "<group>"; };
+		2FB2F5BD280BA89E00184214 /* BoredApeYachtClubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoredApeYachtClubView.swift; sourceTree = "<group>"; };
 		424E4F021974415C10FC6CA1 /* Pods_nftworth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nftworth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		642E89645E1AF2B0011129F5 /* Pods-nftworth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nftworth.debug.xcconfig"; path = "Target Support Files/Pods-nftworth/Pods-nftworth.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +71,7 @@
 		0909536E27F9D4FB00AAB816 /* nftworth */ = {
 			isa = PBXGroup;
 			children = (
+				2FB2F5BC280BA86C00184214 /* Featured Collections View */,
 				0909536F27F9D4FB00AAB816 /* AppDelegate.swift */,
 				0909537127F9D4FB00AAB816 /* SceneDelegate.swift */,
 				0909537327F9D4FB00AAB816 /* ContentView.swift */,
@@ -90,6 +93,14 @@
 				0909537827F9D4FC00AAB816 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2FB2F5BC280BA86C00184214 /* Featured Collections View */ = {
+			isa = PBXGroup;
+			children = (
+				2FB2F5BD280BA89E00184214 /* BoredApeYachtClubView.swift */,
+			);
+			path = "Featured Collections View";
 			sourceTree = "<group>";
 		};
 		53D4470A3597BA88F291E536 /* Pods */ = {
@@ -226,6 +237,7 @@
 				2F0A5FA127FD5543003A2F20 /* CoinTrackerView.swift in Sources */,
 				0909537027F9D4FB00AAB816 /* AppDelegate.swift in Sources */,
 				0909537227F9D4FB00AAB816 /* SceneDelegate.swift in Sources */,
+				2FB2F5BE280BA89E00184214 /* BoredApeYachtClubView.swift in Sources */,
 				2F0A5F6227FD2E3B003A2F20 /* SearchCollectionView.swift in Sources */,
 				0909537427F9D4FB00AAB816 /* ContentView.swift in Sources */,
 				2F0A5F6027FD268B003A2F20 /* PortfolioView.swift in Sources */,

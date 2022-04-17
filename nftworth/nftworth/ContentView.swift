@@ -10,19 +10,43 @@ import SwiftUI
 struct ContentView: View {
     @State private var ethAddress: String = ""
     
+    let gradient = LinearGradient(colors: [Color.blue,Color.black],
+                                     startPoint: .top, endPoint: .bottom)
+    
     var body: some View {
         NavigationView{
+            
+            
+                
+            
+            ZStack{
+               
+                gradient
+                    .opacity(0.25)
+                    .ignoresSafeArea()
+            
+            
         VStack {
+            
             // Title and Input
             VStack {
+              //  Image("mainpic")
+                   // .frame(width: 20, height: 20)
+                   // .resizable()
+                //.scaledToFit()
                 // Title
                 Text("nftworth")
                     .font(.title)
                     .fontWeight(.bold)
                     .foregroundColor(Color.black)
+               
                 
                 // Text Field
                 ZStack {
+                    
+                  
+                    
+                    
                     TextField("ETH Address...",text: $ethAddress)
                 }
                 .padding()
@@ -71,96 +95,97 @@ struct ContentView: View {
                 
                 
                 HStack {
-                    Button(action: {
-                        print("Placeholder")
-                    }) {
-                        Text("Bored Ape Yacht Club")
-                            .padding()
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .overlay(RoundedRectangle(cornerRadius: 20).stroke())
-                    }
-                    Button(action: {
-                        print("Mutant Ape Yacht Club")
-                    }) {
-                        Text("Mutant Ape Yacht Club ")
-                            .multilineTextAlignment(.center)
-                            .padding()
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .overlay(RoundedRectangle(cornerRadius: 20).stroke())
-                    }
+                    
+                        
+                        NavigationLink(destination: BoredApeYachtClubView()) {
+                                Text("Bored Ape    Yacht Club  ")
+                                    .foregroundColor(Color.white)
+           
+                        }.padding()
+                        .background(Color.gray.cornerRadius(20))
+                        
+                        
+                
+                    NavigationLink(destination: SearchCollectionView()) {
+                            Text(" Mutant Ape Yacht Club")
+                                .foregroundColor(Color.white)
+       
+                    }.padding()
+                    .background(Color.gray.cornerRadius(20))
+
+                        
+                
+                }
+                   
+                HStack {
+                    
+                    NavigationLink(destination: SearchCollectionView()) {
+                            Text("Azuki              ")
+                                .foregroundColor(Color.white)
+       
+                    }.padding()
+                    .background(Color.gray.cornerRadius(20))
+                    
+                    
+            
+                NavigationLink(destination: SearchCollectionView()) {
+                        Text("CryptoPunks ")
+                            .foregroundColor(Color.white)
+   
+                }.padding()
+                .background(Color.gray.cornerRadius(20))
+                
                 }
                 HStack {
-                    Button(action: {
-                        print("Azuki")
-                    }) {
-                        Text("         Azuki")
-                            .multilineTextAlignment(.center)
-                            .padding()
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .overlay(RoundedRectangle(cornerRadius: 20).stroke())
-                    }
-                    Button(action: {
-                        print("CryptoPunks")
-                    }) {
-                        Text("  CryptoPunks")
-                            .padding()
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .overlay(RoundedRectangle(cornerRadius: 20).stroke())
-                    }
+                    NavigationLink(destination: SearchCollectionView()) {
+                            Text("CLONE X        ")
+                                .foregroundColor(Color.white)
+       
+                    }.padding()
+                    .background(Color.gray.cornerRadius(20))
+                    
+                    
+            
+                NavigationLink(destination: SearchCollectionView()) {
+                        Text("MeeBits          ")
+                            .foregroundColor(Color.white)
+   
+                }.padding()
+                .background(Color.gray.cornerRadius(20))
                 }
                 HStack {
-                    Button(action: {
-                        print("CLONE X")
-                    }) {
-                        Text("      CLONE X")
-                            .padding()
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .overlay(RoundedRectangle(cornerRadius: 20).stroke())
-                    }
-                    Button(action: {
-                        print("Meebits")
-                    }) {
-                        Text("       Meebits")
-                            .padding()
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .overlay(RoundedRectangle(cornerRadius: 20).stroke())
-                    }
+                    NavigationLink(destination: SearchCollectionView()) {
+                            Text("Doodles          ")
+                                .foregroundColor(Color.white)
+       
+                    }.padding()
+                    .background(Color.gray.cornerRadius(20))
+                    
+                    
+            
+                NavigationLink(destination: SearchCollectionView()) {
+                        Text("MoonBirds     ")
+                            .foregroundColor(Color.white)
+   
+                }.padding()
+                .background(Color.gray.cornerRadius(20))
                 }
                 HStack {
-                    Button(action: {
-                        print("Doodles")
-                    }) {
-                        Text("      Doodles")
-                            .padding()
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .overlay(RoundedRectangle(cornerRadius: 20).stroke())
-                    }
-                    Button(action: {
-                        print("MURI by Haus")
-                    }) {
-                        Text(" MURI by Haus")
-                            .padding()
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .overlay(RoundedRectangle(cornerRadius: 20).stroke())
-                    }
-                }
-                HStack {
-                    Button(action: {
-                        print("Cool Cats NFT")
-                    }) {
-                        Text("  Cool Cats NFT")
-                            .padding()
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .overlay(RoundedRectangle(cornerRadius: 20).stroke())
-                    }
-                    Button(action: {
-                        print("CyberBrokers")
-                    }) {
-                        Text(" CyberBrokers")
-                            .padding()
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .overlay(RoundedRectangle(cornerRadius: 20).stroke())
-                    }
+                    NavigationLink(destination: SearchCollectionView()) {
+                            Text("Cool Cats NFT")
+                                .foregroundColor(Color.white)
+       
+                    }.padding()
+                    .background(Color.gray.cornerRadius(20))
+                    
+                    
+            
+                NavigationLink(destination: SearchCollectionView()) {
+                        Text("CyberBrokers")
+                            .foregroundColor(Color.white)
+   
+                }.padding()
+                .background(Color.gray.cornerRadius(20))
                 }
             }
             .padding(.horizontal, 40)
@@ -186,8 +211,14 @@ struct ContentView: View {
                 }
                 }
             }
+            
+            
         }
-    }
+        }
+        
+  }
+    
+  
 }
 
 

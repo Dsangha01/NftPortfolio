@@ -8,7 +8,16 @@
 import SwiftUI
 import Foundation
 
-struct PortfolioView: View {
+
+
+
+
+
+
+
+
+
+struct BoredApeYachtClubView : View {
     var body: some View {
         ZStack {
                         Color.blue
@@ -25,7 +34,20 @@ struct PortfolioView: View {
                             
                             
                             
-                            Text("Total Value: 109.5 ETH")
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            Text("Floor Price: 109.5 ETH")
+                                .bold()
+                            Text("Volume: 5486.09 ETH")//implement api
                                 .bold()
                             Text("24h % -36.12%")
                                 .bold()
@@ -35,11 +57,13 @@ struct PortfolioView: View {
                                
                            Spacer()
                         }
-                        .navigationTitle("Your Portfolio")
+                        .navigationTitle("Bored Ape Yacht Club")
                         .font(.title2)
         }
     }
-    
 }
+
+
+
 
 
