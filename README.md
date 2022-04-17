@@ -17,11 +17,11 @@ An app to track your nfts value in one place and used to see how a nft collectio
 ### App Evaluation
 [Evaluation of your app across the following attributes]
 - **Category: Finance**
-- **Mobile: This app will only be focused for phones however can be implement for computer/tablet use**
-- **Story: The app will fetch the ethereum address and retrive the nfts that are linked to the specific adress and user will be able to track the price of the nfts that are linked to the ethereum address**
-- **Market: Someone who would download this app is someone who is invested into nfts and they want a really easy way to track how their portfolio is performing.**
-- **Habit:This app can lead someone to accessing this app multple times throughout the day as they would want to constantly monitor there assests performance.**
-- **Scope:We would first focus on monitoring  nft collection then possibley start to monitor cryptocurrency's.**
+- **Mobile: This app will only be focused for phones however can be implemented for computer/tablet use**
+- **Story: The app will fetch the ethereum address and retrive the nfts that are linked to the specific adress. Additionally, the user will be able to track the price of the nfts that are linked to the ethereum address**
+- **Market: This app is intende for people who have invested into nfts and want a really easy way to track how their portfolio is performing.**
+- **Habit: This app can lead someone to accessing this app multple times throughout the day as they would want to constantly monitor their assests performance.**
+- **Scope: We would first focus on monitoring  nft collection then possibley start to monitor cryptocurrency's.**
 
 ## Product Spec
 
@@ -43,7 +43,7 @@ An app to track your nfts value in one place and used to see how a nft collectio
 
 * Home Screen
    * User will enter there etherium address to vier their portfolio.
-   * Users will be able to view the top collection of the week..
+   * Users will be able to view the top collection of the week.
    
 * Inserting Address
    * This screen will show how the user is performing for their nft portfolio
