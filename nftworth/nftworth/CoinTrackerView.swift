@@ -28,9 +28,9 @@ struct CoinTrackerView: View {
                             Rectangle()
                                 .fill(Color.clear)
                                 .frame(height: 10)
-                                .background(LinearGradient(colors: [.blue.opacity(0.3), .black.opacity(0.5)],
-                                                           startPoint: .topLeading, endPoint: .bottomTrailing)
-                                )
+//                                .background(LinearGradient(colors: [.blue.opacity(0.3), .black.opacity(0.5)],
+//                                                           startPoint: .topLeading, endPoint: .bottomTrailing)
+//                                )
                             
                             
                             

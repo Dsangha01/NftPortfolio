@@ -10,8 +10,8 @@ import SwiftUI
 struct ContentView: View {
     @State private var ethAddress: String = ""
     
-    let gradient = LinearGradient(colors: [Color.blue,Color.black],
-                                     startPoint: .top, endPoint: .bottom)
+//    let gradient = LinearGradient(colors: [Color.blue,Color.black],
+//                                     startPoint: .top, endPoint: .bottom)
     
     var body: some View {
         NavigationView{
@@ -21,9 +21,9 @@ struct ContentView: View {
             
             ZStack{
                
-                gradient
-                    .opacity(0.25)
-                    .ignoresSafeArea()
+//                gradient
+//                    .opacity(0.25)
+//                    .ignoresSafeArea()
             
             
         VStack {
@@ -36,23 +36,16 @@ struct ContentView: View {
                 //.scaledToFit()
                 // Title
                 Text("nftworth")
-                    .font(.title)
+                    .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(Color.black)
                
-                
                 // Text Field
                 ZStack {
-                    
-                  
-                    
-                    
                     TextField("ETH Address...",text: $ethAddress)
                 }
                 .padding()
-                .multilineTextAlignment(.center)
                 .overlay(RoundedRectangle(cornerRadius: 20).stroke())
-                .frame(width: 350, height: 100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center)
                 
                 NavigationLink(destination: PortfolioView()) {
                     Text("Submit")
@@ -60,20 +53,9 @@ struct ContentView: View {
                     
                 
                 }
-                
-                
-          
             }
-            .padding(.bottom, 400.0)
-            
-            
-            
-           
-            
-            
-            
-            
-            
+            .padding()
+            .padding(.bottom, 10)
             
             // Collections
             VStack {
@@ -81,115 +63,150 @@ struct ContentView: View {
                 Text("Featured Collections")
                     .fontWeight(.bold)
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .font(.title2)
+                    .font(.title)
                     .foregroundColor(Color.black)
                 
-                // Collections Placeholder for now. TODO: Create another view file for collections
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                HStack {
-                    
-                        
-                        NavigationLink(destination: BoredApeYachtClubView()) {
-                                Text("Bored Ape    Yacht Club  ")
-                                    .foregroundColor(Color.white)
-           
-                        }.padding()
-                        .background(Color.gray.cornerRadius(20))
-                        
-                        
-                
-                    NavigationLink(destination: SearchCollectionView()) {
-                            Text(" Mutant Ape Yacht Club")
-                                .foregroundColor(Color.white)
-       
-                    }.padding()
-                    .background(Color.gray.cornerRadius(20))
+                ScrollView {
+                    VStack (alignment: .leading, spacing: 10) {
+                        ForEach(0..<1) {_ in
+                            NavigationLink(destination: BoredApeYachtClubView()) {
+                                Image("bayc").resizable()
+                                    .frame(width: 100, height: 100)
+                                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                                    .overlay(Circle().stroke(Color.white, lineWidth: 5))
+                                    .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+                                VStack(alignment: .leading) {
+                                    Text("Bored Ape Yacht Club")
+                                        .font(.headline)
+                                        .fontWeight(.bold)
+                                        .foregroundColor(Color.black)
+                                        
+                                    Text("Floor Price: X")
+                                        .font(.subheadline)
+                                        .foregroundColor(Color.gray)
+                                        .padding(.top, 2.0)
+                                }.padding()
+                            }.padding()
+                            
+                            NavigationLink(destination: SearchCollectionView()) {
+                                Image("mayc")
+                                    .resizable()
+                                    .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 100)
+                                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                                    .overlay(Circle().stroke(Color.white, lineWidth: 5))
+                                    .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+                                VStack(alignment: .leading) {
+                                    Text("Mutant Ape Yacht Club")
+                                        .font(.headline)
+                                        .fontWeight(.bold)
+                                        .foregroundColor(Color.black)
+                                        
+                                    Text("Floor Price: X")
+                                        .font(.subheadline)
+                                        .foregroundColor(Color.gray)
+                                        .padding(.top, 2.0)
+                                }.padding()
+                            }.padding()
 
+                            NavigationLink(destination: SearchCollectionView()) {
+                                Image("azuki").resizable()
+                                    .frame(width: 100, height: 100)
+                                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                                    .overlay(Circle().stroke(Color.white, lineWidth: 5))
+                                    .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+                                VStack(alignment: .leading) {
+                                    Text("Azuki")
+                                        .font(.headline)
+                                        .fontWeight(.bold)
+                                        .foregroundColor(Color.black)
+                                        
+                                    Text("Floor Price: X")
+                                        .font(.subheadline)
+                                        .foregroundColor(Color.gray)
+                                        .padding(.top, 2.0)
+                                }.padding()
+                            }.padding()
                         
-                
+                            NavigationLink(destination: SearchCollectionView()) {
+                                Image("clonex").resizable()
+                                    .frame(width: 100, height: 100)
+                                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                                    .overlay(Circle().stroke(Color.white, lineWidth: 5))
+                                    .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+                                VStack(alignment: .leading) {
+                                    Text("CLONE X - X TAKASHI MURAKAMI")
+                                        .font(.headline)
+                                        .fontWeight(.bold)
+                                        .foregroundColor(Color.black)
+                                        
+                                    Text("Floor Price: X")
+                                        .font(.subheadline)
+                                        .foregroundColor(Color.gray)
+                                        .padding(.top, 2.0)
+                                }.padding()
+                            }.padding()
+
+                            NavigationLink(destination: SearchCollectionView()) {
+                                Image("doodles").resizable()
+                                    .frame(width: 100, height: 100)
+                                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                                    .overlay(Circle().stroke(Color.white, lineWidth: 5))
+                                    .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+                                VStack(alignment: .leading) {
+                                    Text("Doodles")
+                                        .font(.headline)
+                                        .fontWeight(.bold)
+                                        .foregroundColor(Color.black)
+                                        
+                                    Text("Floor Price: X")
+                                        .font(.subheadline)
+                                        .foregroundColor(Color.gray)
+                                        .padding(.top, 2.0)
+                                }.padding()
+                            }.padding()
+                            
+                            NavigationLink(destination: SearchCollectionView()) {
+                                Image("moonbirds").resizable()
+                                    .frame(width: 100, height: 100)
+                                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                                    .overlay(Circle().stroke(Color.white, lineWidth: 5))
+                                    .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+                                VStack(alignment: .leading) {
+                                    Text("Moonbirds")
+                                        .font(.headline)
+                                        .fontWeight(.bold)
+                                        .foregroundColor(Color.black)
+                                        
+                                    Text("Floor Price: X")
+                                        .font(.subheadline)
+                                        .foregroundColor(Color.gray)
+                                        .padding(.top, 2.0)
+                                }.padding()
+                            }.padding()
+                                
+                            NavigationLink(destination: SearchCollectionView()) {
+                                Image("cyberbrokers").resizable()
+                                    .frame(width: 100, height: 100)
+                                    .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                                    .overlay(Circle().stroke(Color.white, lineWidth: 5))
+                                    .shadow(radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/)
+                                VStack(alignment: .leading) {
+                                    Text("Cyberbrokers")
+                                        .font(.headline)
+                                        .fontWeight(.bold)
+                                        .foregroundColor(Color.black)
+                                        
+                                    Text("Floor Price: X")
+                                        .font(.subheadline)
+                                        .foregroundColor(Color.gray)
+                                        .padding(.top, 2.0)
+                                }.padding()
+                            }.padding()
+                        }
+                    }
                 }
-                   
-                HStack {
-                    
-                    NavigationLink(destination: SearchCollectionView()) {
-                            Text("Azuki              ")
-                                .foregroundColor(Color.white)
-       
-                    }.padding()
-                    .background(Color.gray.cornerRadius(20))
-                    
-                    
-            
-                NavigationLink(destination: SearchCollectionView()) {
-                        Text("CryptoPunks ")
-                            .foregroundColor(Color.white)
-   
-                }.padding()
-                .background(Color.gray.cornerRadius(20))
-                
-                }
-                HStack {
-                    NavigationLink(destination: SearchCollectionView()) {
-                            Text("CLONE X        ")
-                                .foregroundColor(Color.white)
-       
-                    }.padding()
-                    .background(Color.gray.cornerRadius(20))
-                    
-                    
-            
-                NavigationLink(destination: SearchCollectionView()) {
-                        Text("MeeBits          ")
-                            .foregroundColor(Color.white)
-   
-                }.padding()
-                .background(Color.gray.cornerRadius(20))
-                }
-                HStack {
-                    NavigationLink(destination: SearchCollectionView()) {
-                            Text("Doodles          ")
-                                .foregroundColor(Color.white)
-       
-                    }.padding()
-                    .background(Color.gray.cornerRadius(20))
-                    
-                    
-            
-                NavigationLink(destination: SearchCollectionView()) {
-                        Text("MoonBirds     ")
-                            .foregroundColor(Color.white)
-   
-                }.padding()
-                .background(Color.gray.cornerRadius(20))
-                }
-                HStack {
-                    NavigationLink(destination: SearchCollectionView()) {
-                            Text("Cool Cats NFT")
-                                .foregroundColor(Color.white)
-       
-                    }.padding()
-                    .background(Color.gray.cornerRadius(20))
-                    
-                    
-            
-                NavigationLink(destination: SearchCollectionView()) {
-                        Text("CyberBrokers")
-                            .foregroundColor(Color.white)
-   
-                }.padding()
-                .background(Color.gray.cornerRadius(20))
-                }
-            }
-            .padding(.horizontal, 40)
-            .padding(.vertical, -350)
+            }.padding(.horizontal)
+
             
             // Bottom Taskbar
             .toolbar {
@@ -203,16 +220,10 @@ struct ContentView: View {
                     NavigationLink(destination: SearchCollectionView()) {
                             Text("Search Collection")
                                 .foregroundColor(Color.blue)
-                            
-                        
-                        
-                        
                     }
                 }
                 }
             }
-            
-            
         }
         }
         
