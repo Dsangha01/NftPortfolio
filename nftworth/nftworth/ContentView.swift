@@ -9,14 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var ethAddress: String = ""
-    
+
 //    let gradient = LinearGradient(colors: [Color.blue,Color.black],
 //                                     startPoint: .top, endPoint: .bottom)
     
     var body: some View {
+                
         NavigationView{
-            
-            
                 
             
             ZStack{
@@ -214,7 +213,6 @@ struct ContentView: View {
                     NavigationLink(destination: CoinTrackerView()) {
                             Text("Coin Tracker")
                                 .foregroundColor(Color.blue)
-
                     }
                     
                     NavigationLink(destination: SearchCollectionView()) {
@@ -228,12 +226,6 @@ struct ContentView: View {
         }
         
   }
-    
-  
-}
-
-
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
@@ -241,4 +233,5 @@ struct ContentView_Previews: PreviewProvider {
 
     }
 
+}
 }
