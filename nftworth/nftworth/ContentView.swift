@@ -87,7 +87,7 @@ struct ContentView: View {
                                 }.padding()
                             }.padding()
                             
-                            NavigationLink(destination: SearchCollectionView()) {
+                            NavigationLink(destination: MutantApeYachtClubView()) {
                                 Image("mayc")
                                     .resizable()
                                     .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 100)
@@ -107,7 +107,7 @@ struct ContentView: View {
                                 }.padding()
                             }.padding()
 
-                            NavigationLink(destination: SearchCollectionView()) {
+                            NavigationLink(destination: AzukiView()) {
                                 Image("azuki").resizable()
                                     .frame(width: 100, height: 100)
                                     .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
@@ -126,7 +126,7 @@ struct ContentView: View {
                                 }.padding()
                             }.padding()
                         
-                            NavigationLink(destination: SearchCollectionView()) {
+                            NavigationLink(destination: ClonexView()) {
                                 Image("clonex").resizable()
                                     .frame(width: 100, height: 100)
                                     .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
@@ -145,7 +145,7 @@ struct ContentView: View {
                                 }.padding()
                             }.padding()
 
-                            NavigationLink(destination: SearchCollectionView()) {
+                            NavigationLink(destination: DoodlesView()) {
                                 Image("doodles").resizable()
                                     .frame(width: 100, height: 100)
                                     .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
@@ -164,7 +164,7 @@ struct ContentView: View {
                                 }.padding()
                             }.padding()
                             
-                            NavigationLink(destination: SearchCollectionView()) {
+                            NavigationLink(destination: MoonbirdsView()) {
                                 Image("moonbirds").resizable()
                                     .frame(width: 100, height: 100)
                                     .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
@@ -183,7 +183,7 @@ struct ContentView: View {
                                 }.padding()
                             }.padding()
                                 
-                            NavigationLink(destination: SearchCollectionView()) {
+                            NavigationLink(destination: CyberbrokersView()) {
                                 Image("cyberbrokers").resizable()
                                     .frame(width: 100, height: 100)
                                     .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)

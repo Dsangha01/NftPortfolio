@@ -14,6 +14,12 @@
 		0909537627F9D4FC00AAB816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0909537527F9D4FC00AAB816 /* Assets.xcassets */; };
 		0909537927F9D4FC00AAB816 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0909537827F9D4FC00AAB816 /* Preview Assets.xcassets */; };
 		0909537C27F9D4FC00AAB816 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0909537A27F9D4FC00AAB816 /* LaunchScreen.storyboard */; };
+		0918B75B2811875B0081A837 /* AzukiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0918B75A2811875B0081A837 /* AzukiView.swift */; };
+		0918B75E281187AE0081A837 /* MutantApeYachtClubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0918B75D281187AE0081A837 /* MutantApeYachtClubView.swift */; };
+		0918B769281187EF0081A837 /* MoonbirdsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0918B768281187EF0081A837 /* MoonbirdsView.swift */; };
+		0918B76C281188070081A837 /* ClonexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0918B76B281188070081A837 /* ClonexView.swift */; };
+		0918B772281188430081A837 /* DoodlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0918B771281188430081A837 /* DoodlesView.swift */; };
+		0918B775281188520081A837 /* CyberbrokersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0918B774281188520081A837 /* CyberbrokersView.swift */; };
 		2F0A5F6027FD268B003A2F20 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0A5F5F27FD268B003A2F20 /* PortfolioView.swift */; };
 		2F0A5F6227FD2E3B003A2F20 /* SearchCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0A5F6127FD2E3B003A2F20 /* SearchCollectionView.swift */; };
 		2F0A5FA127FD5543003A2F20 /* CoinTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0A5FA027FD5543003A2F20 /* CoinTrackerView.swift */; };
@@ -29,6 +35,12 @@
 		0909537827F9D4FC00AAB816 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0909537B27F9D4FC00AAB816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0909537D27F9D4FC00AAB816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0918B75A2811875B0081A837 /* AzukiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzukiView.swift; sourceTree = "<group>"; };
+		0918B75D281187AE0081A837 /* MutantApeYachtClubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutantApeYachtClubView.swift; sourceTree = "<group>"; };
+		0918B768281187EF0081A837 /* MoonbirdsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonbirdsView.swift; sourceTree = "<group>"; };
+		0918B76B281188070081A837 /* ClonexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClonexView.swift; sourceTree = "<group>"; };
+		0918B771281188430081A837 /* DoodlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoodlesView.swift; sourceTree = "<group>"; };
+		0918B774281188520081A837 /* CyberbrokersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyberbrokersView.swift; sourceTree = "<group>"; };
 		10727F65D3176614925D38A8 /* Pods-nftworth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nftworth.release.xcconfig"; path = "Target Support Files/Pods-nftworth/Pods-nftworth.release.xcconfig"; sourceTree = "<group>"; };
 		2F0A5F5F27FD268B003A2F20 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
 		2F0A5F6127FD2E3B003A2F20 /* SearchCollectionView.swift */ = {isa = PBXFileReference; indentWidth = 8; lastKnownFileType = sourcecode.swift; path = SearchCollectionView.swift; sourceTree = "<group>"; tabWidth = 9; };
@@ -99,6 +111,12 @@
 			isa = PBXGroup;
 			children = (
 				2FB2F5BD280BA89E00184214 /* BoredApeYachtClubView.swift */,
+				0918B75A2811875B0081A837 /* AzukiView.swift */,
+				0918B75D281187AE0081A837 /* MutantApeYachtClubView.swift */,
+				0918B768281187EF0081A837 /* MoonbirdsView.swift */,
+				0918B76B281188070081A837 /* ClonexView.swift */,
+				0918B771281188430081A837 /* DoodlesView.swift */,
+				0918B774281188520081A837 /* CyberbrokersView.swift */,
 			);
 			path = "Featured Collections View";
 			sourceTree = "<group>";
@@ -235,9 +253,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F0A5FA127FD5543003A2F20 /* CoinTrackerView.swift in Sources */,
+				0918B75B2811875B0081A837 /* AzukiView.swift in Sources */,
 				0909537027F9D4FB00AAB816 /* AppDelegate.swift in Sources */,
+				0918B76C281188070081A837 /* ClonexView.swift in Sources */,
 				0909537227F9D4FB00AAB816 /* SceneDelegate.swift in Sources */,
 				2FB2F5BE280BA89E00184214 /* BoredApeYachtClubView.swift in Sources */,
+				0918B75E281187AE0081A837 /* MutantApeYachtClubView.swift in Sources */,
+				0918B775281188520081A837 /* CyberbrokersView.swift in Sources */,
+				0918B769281187EF0081A837 /* MoonbirdsView.swift in Sources */,
+				0918B772281188430081A837 /* DoodlesView.swift in Sources */,
 				2F0A5F6227FD2E3B003A2F20 /* SearchCollectionView.swift in Sources */,
 				0909537427F9D4FB00AAB816 /* ContentView.swift in Sources */,
 				2F0A5F6027FD268B003A2F20 /* PortfolioView.swift in Sources */,

@@ -1,23 +1,23 @@
 //
-//  BoredApeYachtClubView.swift
+//  ClonexView.swift
 //  nftworth
 //
-//  Created by Dhanpreet Sangha on 4/5/22.
+//  Created by Antony Ni on 4/21/22.
 //
 
 import SwiftUI
 import Foundation
 
-struct BoredApeYachtClubView : View {
+struct ClonexView : View {
     var body: some View {
         ZStack {
             VStack {
-                Image("baycbanner")
+                Image("clonexbanner")
                     .resizable()
                     .frame(height:200)
                     .ignoresSafeArea()
                     .overlay(
-                        Image("bayc")
+                        Image("clonex")
                             .resizable()
                             .frame(width: 125, height: 125)
                             .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
@@ -26,9 +26,10 @@ struct BoredApeYachtClubView : View {
                     ).padding(.top, -45.0)
                 
                 VStack {
-                    Text("Bored Ape Yacht Club")
+                    Text("CLONE X - X TAKASHI MURAKAMI")
                         .bold()
                         .font(.title)
+                        .multilineTextAlignment(.center)
                     HStack {
                         Text("Floor Price: 109.5Ξ")
                             .bold()

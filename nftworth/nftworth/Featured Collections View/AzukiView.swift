@@ -1,23 +1,23 @@
 //
-//  BoredApeYachtClubView.swift
+//  AzukiView.swift
 //  nftworth
 //
-//  Created by Dhanpreet Sangha on 4/5/22.
+//  Created by Antony Ni on 4/21/22.
 //
 
 import SwiftUI
 import Foundation
 
-struct BoredApeYachtClubView : View {
+struct AzukiView : View {
     var body: some View {
         ZStack {
             VStack {
-                Image("baycbanner")
+                Image("azukibanner")
                     .resizable()
                     .frame(height:200)
                     .ignoresSafeArea()
                     .overlay(
-                        Image("bayc")
+                        Image("azuki")
                             .resizable()
                             .frame(width: 125, height: 125)
                             .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
@@ -26,7 +26,7 @@ struct BoredApeYachtClubView : View {
                     ).padding(.top, -45.0)
                 
                 VStack {
-                    Text("Bored Ape Yacht Club")
+                    Text("Azuki")
                         .bold()
                         .font(.title)
                     HStack {
