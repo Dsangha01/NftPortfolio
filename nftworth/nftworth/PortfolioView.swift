@@ -94,7 +94,7 @@ struct PortfolioView: View {
                                                 Text("$48,221 (16.33Ξ)")
                                                     .font(.subheadline)
                                                     .bold()
-                                                    .foregroundColor(Color.init(red: 200 / 255, green: 200 / 255, blue: 200 / 255))
+                                                    .foregroundColor(Color.gray)
                                             }
                                             VStack {
                                                 Image("kaijumutant")
