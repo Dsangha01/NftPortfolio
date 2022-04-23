@@ -9,13 +9,17 @@ import SwiftUI
 import Foundation
 
 
-
-
-
-
+struct CollectionData: Decodable {
+    var floor_price: String
+    var total_volume: String
+    var num_owners: String
+    var total_supply: String
+}
 
 struct BoredApeYachtClubView : View {
    
+    @State private var collectionData: CollectionData?
+    
     func fetchPrice(){
         
 
@@ -35,16 +39,12 @@ struct BoredApeYachtClubView : View {
           } else {
             let httpResponse = response as? HTTPURLResponse
               
-            //print(httpResponse)
-              if let data = data,
-                    let urlContent = NSString(data: data, encoding: String.Encoding.ascii.rawValue) {
-                    print(urlContent)
-                    //urlContent is JSON
+            if let data = data,
+                let urlContent = NSString(data: data, encoding: String.Encoding.ascii.rawValue) {
+                print(urlContent)
+                //urlContent is JSON
+                
                     
-                  
-                    
-                    
-                  
                   
                 } else {
                     print("Error: \(error)")
@@ -57,19 +57,10 @@ struct BoredApeYachtClubView : View {
         
     }
     
-    
-    
-    
-    
-    
-    
     init() {
         self.fetchPrice()// non always good, but can
        }
   
-      
-
-
     var body: some View {
         ZStack {
             VStack {
@@ -108,7 +99,6 @@ struct BoredApeYachtClubView : View {
                             .frame(width: 125, height: 50)
                     }
                 }.padding(.top, -20.0)
-                
                 
                 ScrollView {
                     VStack {

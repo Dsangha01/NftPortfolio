@@ -20,7 +20,7 @@
 		0918B76C281188070081A837 /* ClonexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0918B76B281188070081A837 /* ClonexView.swift */; };
 		0918B772281188430081A837 /* DoodlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0918B771281188430081A837 /* DoodlesView.swift */; };
 		0918B775281188520081A837 /* CyberbrokersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0918B774281188520081A837 /* CyberbrokersView.swift */; };
-		2F0A5F6027FD268B003A2F20 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0A5F5F27FD268B003A2F20 /* PortfolioView.swift */; };
+		09484A1F281491A1006432E3 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0A5F5F27FD268B003A2F20 /* PortfolioView.swift */; };
 		2F0A5F6227FD2E3B003A2F20 /* SearchCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0A5F6127FD2E3B003A2F20 /* SearchCollectionView.swift */; };
 		2F0A5FA127FD5543003A2F20 /* CoinTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0A5FA027FD5543003A2F20 /* CoinTrackerView.swift */; };
 		2FAB73BD2813777D00AC551E /* Temp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAB73BC2813777D00AC551E /* Temp.swift */; };
@@ -264,11 +264,11 @@
 				0918B75E281187AE0081A837 /* MutantApeYachtClubView.swift in Sources */,
 				2FAB73BD2813777D00AC551E /* Temp.swift in Sources */,
 				0918B775281188520081A837 /* CyberbrokersView.swift in Sources */,
+				09484A1F281491A1006432E3 /* PortfolioView.swift in Sources */,
 				0918B769281187EF0081A837 /* MoonbirdsView.swift in Sources */,
 				0918B772281188430081A837 /* DoodlesView.swift in Sources */,
 				2F0A5F6227FD2E3B003A2F20 /* SearchCollectionView.swift in Sources */,
 				0909537427F9D4FB00AAB816 /* ContentView.swift in Sources */,
-				2F0A5F6027FD268B003A2F20 /* PortfolioView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
