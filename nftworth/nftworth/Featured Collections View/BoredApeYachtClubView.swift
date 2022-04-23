@@ -8,11 +8,73 @@
 import SwiftUI
 import Foundation
 
+
+
+
+
+
+
 struct BoredApeYachtClubView : View {
+   
+    func fetchPrice(){
+        
+
+        let headers = ["Accept": "application/json"]
+
+        let request = NSMutableURLRequest(url: NSURL(string: "https://api.opensea.io/api/v1/collection/doodles-official/stats")! as URL,
+                                                cachePolicy: .useProtocolCachePolicy,
+                                            timeoutInterval: 10.0)
+        request.httpMethod = "GET"
+        request.allHTTPHeaderFields = headers
+
+        let session = URLSession.shared
+        let dataTask = session.dataTask(with: request as URLRequest, completionHandler: { (data, response, error) -> Void in
+          if (error != nil) {
+            print(error)
+             
+          } else {
+            let httpResponse = response as? HTTPURLResponse
+              
+            //print(httpResponse)
+              if let data = data,
+                    let urlContent = NSString(data: data, encoding: String.Encoding.ascii.rawValue) {
+                    print(urlContent)
+                    //urlContent is JSON
+                    
+                  
+                    
+                    
+                  
+                  
+                } else {
+                    print("Error: \(error)")
+                }
+            
+          }
+        })
+        
+        dataTask.resume()
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    init() {
+        self.fetchPrice()// non always good, but can
+       }
+  
+      
+
+
     var body: some View {
         ZStack {
             VStack {
                 Image("baycbanner")
+                
                     .resizable()
                     .frame(height:200)
                     .ignoresSafeArea()

@@ -6,6 +6,10 @@
 //
 
 import SwiftUI
+import Foundation
+
+
+
 
 struct ContentView: View {
     @State private var ethAddress: String = ""
@@ -59,6 +63,7 @@ struct ContentView: View {
             // Collections
             VStack {
                 // Title
+                
                 Text("Featured Collections")
                     .fontWeight(.bold)
                     .frame(maxWidth: .infinity, alignment: .leading)
@@ -69,6 +74,7 @@ struct ContentView: View {
                     VStack (alignment: .leading, spacing: 10) {
                         ForEach(0..<1) {_ in
                             NavigationLink(destination: BoredApeYachtClubView()) {
+                                
                                 Image("bayc").resizable()
                                     .frame(width: 100, height: 100)
                                     .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
@@ -86,6 +92,7 @@ struct ContentView: View {
                                         .padding(.top, 2.0)
                                 }.padding()
                             }.padding()
+                                
                             
                             NavigationLink(destination: MutantApeYachtClubView()) {
                                 Image("mayc")
