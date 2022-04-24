@@ -86,7 +86,7 @@ struct ContentView: View {
                                         .fontWeight(.bold)
                                         .foregroundColor(Color.black)
                                         
-                                    Text("Floor Price: X")
+                                    Text("Floor Price: 135Ξ")
                                         .font(.subheadline)
                                         .foregroundColor(Color.gray)
                                         .padding(.top, 2.0)
@@ -107,7 +107,7 @@ struct ContentView: View {
                                         .fontWeight(.bold)
                                         .foregroundColor(Color.black)
                                         
-                                    Text("Floor Price: X")
+                                    Text("Floor Price: 35.5Ξ")
                                         .font(.subheadline)
                                         .foregroundColor(Color.gray)
                                         .padding(.top, 2.0)
@@ -126,7 +126,7 @@ struct ContentView: View {
                                         .fontWeight(.bold)
                                         .foregroundColor(Color.black)
                                         
-                                    Text("Floor Price: X")
+                                    Text("Floor Price: 23.69Ξ")
                                         .font(.subheadline)
                                         .foregroundColor(Color.gray)
                                         .padding(.top, 2.0)
@@ -145,7 +145,7 @@ struct ContentView: View {
                                         .fontWeight(.bold)
                                         .foregroundColor(Color.black)
                                         
-                                    Text("Floor Price: X")
+                                    Text("Floor Price: 17.6Ξ")
                                         .font(.subheadline)
                                         .foregroundColor(Color.gray)
                                         .padding(.top, 2.0)
@@ -164,7 +164,7 @@ struct ContentView: View {
                                         .fontWeight(.bold)
                                         .foregroundColor(Color.black)
                                         
-                                    Text("Floor Price: X")
+                                    Text("Floor Price: 14.94Ξ")
                                         .font(.subheadline)
                                         .foregroundColor(Color.gray)
                                         .padding(.top, 2.0)
@@ -183,7 +183,7 @@ struct ContentView: View {
                                         .fontWeight(.bold)
                                         .foregroundColor(Color.black)
                                         
-                                    Text("Floor Price: X")
+                                    Text("Floor Price: 36.67Ξ")
                                         .font(.subheadline)
                                         .foregroundColor(Color.gray)
                                         .padding(.top, 2.0)
@@ -202,7 +202,7 @@ struct ContentView: View {
                                         .fontWeight(.bold)
                                         .foregroundColor(Color.black)
                                         
-                                    Text("Floor Price: X")
+                                    Text("Floor Price: 3.56Ξ")
                                         .font(.subheadline)
                                         .foregroundColor(Color.gray)
                                         .padding(.top, 2.0)
