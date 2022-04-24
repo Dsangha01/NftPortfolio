@@ -30,8 +30,8 @@ An app to track your nfts value in one place and used to see how a nft collectio
 **Required Must-have Stories**
 * [x] User must enter in the ethereum address in the homescreen.
 * [x] User can pick what collection they would like to view and see the value of that specific collection.
-* [ ] Users can also browse colections that are trending for the week.
-* [ ] Users then can click on the trending collection and view its value. 
+* [X] Users can also browse colections that are trending for the week.
+* [X] Users then can click on the trending collection and view its value. 
 
 **Optional Nice-to-have Stories**
 
