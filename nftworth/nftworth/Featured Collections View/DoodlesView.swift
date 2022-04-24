@@ -53,55 +53,27 @@ struct DoodlesView : View {
                         ForEach(0..<1) {_ in
                             HStack {
                                 VStack {
-                                    Image("bayc2849")
+                                    Image("Doodle9335")
                                         .resizable()
                                         .frame(width: 175, height: 175)
                                     HStack {
-                                        Text("BAYC #2849")
+                                        Text("Doodle #9335")
                                             .padding(.leading, 1.0)
                                         Spacer()
-                                        Text("125Ξ")
+                                        Text("14.94Ξ")
                                             .padding(.trailing, 1.0)
                                     }.frame(width: 175)
                                 }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
                                 .padding(5)
                                 VStack {
-                                    Image("bayc2849")
+                                    Image("Doodle8290")
                                         .resizable()
                                         .frame(width: 175, height: 175)
                                     HStack {
-                                        Text("BAYC #2849")
+                                        Text("Doodle #8290")
                                             .padding(.leading, 1.0)
                                         Spacer()
-                                        Text("125Ξ")
-                                            .padding(.trailing, 1.0)
-                                    }.frame(width: 175)
-                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
-                                .padding(5)
-                            }
-                            HStack {
-                                VStack {
-                                    Image("bayc2849")
-                                        .resizable()
-                                        .frame(width: 175, height: 175)
-                                    HStack {
-                                        Text("BAYC #2849")
-                                            .padding(.leading, 1.0)
-                                        Spacer()
-                                        Text("125Ξ")
-                                            .padding(.trailing, 1.0)
-                                    }.frame(width: 175)
-                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
-                                .padding(5)
-                                VStack {
-                                    Image("bayc2849")
-                                        .resizable()
-                                        .frame(width: 175, height: 175)
-                                    HStack {
-                                        Text("BAYC #2849")
-                                            .padding(.leading, 1.0)
-                                        Spacer()
-                                        Text("125Ξ")
+                                        Text("14.95Ξ")
                                             .padding(.trailing, 1.0)
                                     }.frame(width: 175)
                                 }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
@@ -109,27 +81,139 @@ struct DoodlesView : View {
                             }
                             HStack {
                                 VStack {
-                                    Image("bayc2849")
+                                    Image("Doodle4776")
                                         .resizable()
                                         .frame(width: 175, height: 175)
                                     HStack {
-                                        Text("BAYC #2849")
+                                        Text("Doodle #4776")
                                             .padding(.leading, 1.0)
                                         Spacer()
-                                        Text("125Ξ")
+                                        Text("15Ξ")
                                             .padding(.trailing, 1.0)
                                     }.frame(width: 175)
                                 }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
                                 .padding(5)
                                 VStack {
-                                    Image("bayc2849")
+                                    Image("Doodle7766")
                                         .resizable()
                                         .frame(width: 175, height: 175)
                                     HStack {
-                                        Text("BAYC #2849")
+                                        Text("Doodle #7766")
                                             .padding(.leading, 1.0)
                                         Spacer()
-                                        Text("125Ξ")
+                                        Text("15Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                            }
+                            HStack {
+                                VStack {
+                                    Image("Doodle913")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("Doodle #913")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("15Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                                VStack {
+                                    Image("Doodle5341")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("Doodle #5372")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("15.1999Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                            }
+                            HStack {
+                                VStack {
+                                    Image("Doodle5372")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("Doodle #5372")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("15Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                                VStack {
+                                    Image("Doodle9752")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("Doodle #9752")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("15.35Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                            }
+                            HStack {
+                                VStack {
+                                    Image("Doodle2903")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("Doodle #2903")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("15.49Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                                VStack {
+                                    Image("Doodle9765")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("Doodle #9765")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("15.5Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                            }
+                            HStack {
+                                VStack {
+                                    Image("Doodle6591")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("Doodle #6591")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("15.5Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                                VStack {
+                                    Image("Doodle2569")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("Doodle #2569")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("15.5Ξ")
                                             .padding(.trailing, 1.0)
                                     }.frame(width: 175)
                                 }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)

@@ -54,55 +54,27 @@ struct ClonexView : View {
                         ForEach(0..<1) {_ in
                             HStack {
                                 VStack {
-                                    Image("bayc2849")
+                                    Image("CloneX3850")
                                         .resizable()
                                         .frame(width: 175, height: 175)
                                     HStack {
-                                        Text("BAYC #2849")
+                                        Text("CloneX #3850")
                                             .padding(.leading, 1.0)
                                         Spacer()
-                                        Text("125Ξ")
+                                        Text("18.48Ξ")
                                             .padding(.trailing, 1.0)
                                     }.frame(width: 175)
                                 }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
                                 .padding(5)
                                 VStack {
-                                    Image("bayc2849")
+                                    Image("CloneX9359")
                                         .resizable()
                                         .frame(width: 175, height: 175)
                                     HStack {
-                                        Text("BAYC #2849")
+                                        Text("CloneX #9359")
                                             .padding(.leading, 1.0)
                                         Spacer()
-                                        Text("125Ξ")
-                                            .padding(.trailing, 1.0)
-                                    }.frame(width: 175)
-                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
-                                .padding(5)
-                            }
-                            HStack {
-                                VStack {
-                                    Image("bayc2849")
-                                        .resizable()
-                                        .frame(width: 175, height: 175)
-                                    HStack {
-                                        Text("BAYC #2849")
-                                            .padding(.leading, 1.0)
-                                        Spacer()
-                                        Text("125Ξ")
-                                            .padding(.trailing, 1.0)
-                                    }.frame(width: 175)
-                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
-                                .padding(5)
-                                VStack {
-                                    Image("bayc2849")
-                                        .resizable()
-                                        .frame(width: 175, height: 175)
-                                    HStack {
-                                        Text("BAYC #2849")
-                                            .padding(.leading, 1.0)
-                                        Spacer()
-                                        Text("125Ξ")
+                                        Text("18.49Ξ")
                                             .padding(.trailing, 1.0)
                                     }.frame(width: 175)
                                 }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
@@ -110,27 +82,139 @@ struct ClonexView : View {
                             }
                             HStack {
                                 VStack {
-                                    Image("bayc2849")
+                                    Image("CloneX8988")
                                         .resizable()
                                         .frame(width: 175, height: 175)
                                     HStack {
-                                        Text("BAYC #2849")
+                                        Text("CloneX #8988")
                                             .padding(.leading, 1.0)
                                         Spacer()
-                                        Text("125Ξ")
+                                        Text("18.5Ξ")
                                             .padding(.trailing, 1.0)
                                     }.frame(width: 175)
                                 }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
                                 .padding(5)
                                 VStack {
-                                    Image("bayc2849")
+                                    Image("CloneX4970")
                                         .resizable()
                                         .frame(width: 175, height: 175)
                                     HStack {
-                                        Text("BAYC #2849")
+                                        Text("CloneX #4970")
                                             .padding(.leading, 1.0)
                                         Spacer()
-                                        Text("125Ξ")
+                                        Text("18.5Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                            }
+                            HStack {
+                                VStack {
+                                    Image("CloneX580")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("CloneX #580")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("18.5Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                                VStack {
+                                    Image("CloneX7046")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("CloneX #7046")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("18.75Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                            }
+                            HStack {
+                                VStack {
+                                    Image("CloneX17211")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("CloneX #17211")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("18.9Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                                VStack {
+                                    Image("CloneX7462")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("CloneX #7462")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("18.9Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                            }
+                            HStack {
+                                VStack {
+                                    Image("CloneX7906")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("CloneX #7906")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("18.98Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                                VStack {
+                                    Image("CloneX3277")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("CloneX #3277")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("18.99Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                            }
+                            HStack {
+                                VStack {
+                                    Image("CloneX16865")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("CloneX #16865")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("19Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                                VStack {
+                                    Image("CloneX1958")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("CloneX #1958")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("19Ξ")
                                             .padding(.trailing, 1.0)
                                     }.frame(width: 175)
                                 }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)

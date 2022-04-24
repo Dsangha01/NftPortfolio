@@ -105,14 +105,42 @@ struct BoredApeYachtClubView : View {
                         ForEach(0..<1) {_ in
                             HStack {
                                 VStack {
-                                    Image("bayc2849")
+                                    Image("BAC389")
                                         .resizable()
                                         .frame(width: 175, height: 175)
                                     HStack {
-                                        Text("BAYC #2849")
+                                        Text("BAYC #389")
                                             .padding(.leading, 1.0)
                                         Spacer()
-                                        Text("125Ξ")
+                                        Text("138.99Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                                VStack {
+                                    Image("BAC1495")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("BAYC #1495")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("180Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                            }
+                            HStack {
+                                VStack {
+                                    Image("BAC7087")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("BAYC #7087")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("135Ξ")
                                             .padding(.trailing, 1.0)
                                     }.frame(width: 175)
                                 }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
@@ -133,27 +161,27 @@ struct BoredApeYachtClubView : View {
                             }
                             HStack {
                                 VStack {
-                                    Image("bayc2849")
+                                    Image("BAC9171")
                                         .resizable()
                                         .frame(width: 175, height: 175)
                                     HStack {
-                                        Text("BAYC #2849")
+                                        Text("BAYC #9171")
                                             .padding(.leading, 1.0)
                                         Spacer()
-                                        Text("125Ξ")
+                                        Text("139Ξ")
                                             .padding(.trailing, 1.0)
                                     }.frame(width: 175)
                                 }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
                                 .padding(5)
                                 VStack {
-                                    Image("bayc2849")
+                                    Image("BAC1348")
                                         .resizable()
                                         .frame(width: 175, height: 175)
                                     HStack {
-                                        Text("BAYC #2849")
+                                        Text("BAYC #1348")
                                             .padding(.leading, 1.0)
                                         Spacer()
-                                        Text("125Ξ")
+                                        Text("137Ξ")
                                             .padding(.trailing, 1.0)
                                     }.frame(width: 175)
                                 }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
@@ -161,27 +189,83 @@ struct BoredApeYachtClubView : View {
                             }
                             HStack {
                                 VStack {
-                                    Image("bayc2849")
+                                    Image("BAC7274")
                                         .resizable()
                                         .frame(width: 175, height: 175)
                                     HStack {
-                                        Text("BAYC #2849")
+                                        Text("BAYC #7274")
                                             .padding(.leading, 1.0)
                                         Spacer()
-                                        Text("125Ξ")
+                                        Text("139Ξ")
                                             .padding(.trailing, 1.0)
                                     }.frame(width: 175)
                                 }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
                                 .padding(5)
                                 VStack {
-                                    Image("bayc2849")
+                                    Image("BAC1187")
                                         .resizable()
                                         .frame(width: 175, height: 175)
                                     HStack {
-                                        Text("BAYC #2849")
+                                        Text("BAYC #1187")
                                             .padding(.leading, 1.0)
                                         Spacer()
-                                        Text("125Ξ")
+                                        Text("139Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                            }
+                            HStack {
+                                VStack {
+                                    Image("BAC9013")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("BAYC #9013")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("139.8Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                                VStack {
+                                    Image("BAC4267")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("BAYC #4267")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("140Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                            }
+                            HStack {
+                                VStack {
+                                    Image("BAC408")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("BAYC #408")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("142Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                                VStack {
+                                    Image("BAC7873")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("BAYC #7873")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("142Ξ")
                                             .padding(.trailing, 1.0)
                                     }.frame(width: 175)
                                 }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)

@@ -53,55 +53,27 @@ struct AzukiView : View {
                         ForEach(0..<1) {_ in
                             HStack {
                                 VStack {
-                                    Image("bayc2849")
+                                    Image("AZUKI#2552")
                                         .resizable()
                                         .frame(width: 175, height: 175)
                                     HStack {
-                                        Text("BAYC #2849")
+                                        Text("Azuki #2552")
                                             .padding(.leading, 1.0)
                                         Spacer()
-                                        Text("125Ξ")
+                                        Text("23.8Ξ")
                                             .padding(.trailing, 1.0)
                                     }.frame(width: 175)
                                 }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
                                 .padding(5)
                                 VStack {
-                                    Image("bayc2849")
+                                    Image("AZUKI4319")
                                         .resizable()
                                         .frame(width: 175, height: 175)
                                     HStack {
-                                        Text("BAYC #2849")
+                                        Text("Azuki #4319")
                                             .padding(.leading, 1.0)
                                         Spacer()
-                                        Text("125Ξ")
-                                            .padding(.trailing, 1.0)
-                                    }.frame(width: 175)
-                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
-                                .padding(5)
-                            }
-                            HStack {
-                                VStack {
-                                    Image("bayc2849")
-                                        .resizable()
-                                        .frame(width: 175, height: 175)
-                                    HStack {
-                                        Text("BAYC #2849")
-                                            .padding(.leading, 1.0)
-                                        Spacer()
-                                        Text("125Ξ")
-                                            .padding(.trailing, 1.0)
-                                    }.frame(width: 175)
-                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
-                                .padding(5)
-                                VStack {
-                                    Image("bayc2849")
-                                        .resizable()
-                                        .frame(width: 175, height: 175)
-                                    HStack {
-                                        Text("BAYC #2849")
-                                            .padding(.leading, 1.0)
-                                        Spacer()
-                                        Text("125Ξ")
+                                        Text("23.99Ξ")
                                             .padding(.trailing, 1.0)
                                     }.frame(width: 175)
                                 }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
@@ -109,27 +81,139 @@ struct AzukiView : View {
                             }
                             HStack {
                                 VStack {
-                                    Image("bayc2849")
+                                    Image("AZUKI564")
                                         .resizable()
                                         .frame(width: 175, height: 175)
                                     HStack {
-                                        Text("BAYC #2849")
+                                        Text("Azuki #564")
                                             .padding(.leading, 1.0)
                                         Spacer()
-                                        Text("125Ξ")
+                                        Text("24Ξ")
                                             .padding(.trailing, 1.0)
                                     }.frame(width: 175)
                                 }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
                                 .padding(5)
                                 VStack {
-                                    Image("bayc2849")
+                                    Image("AZUKI1681")
                                         .resizable()
                                         .frame(width: 175, height: 175)
                                     HStack {
-                                        Text("BAYC #2849")
+                                        Text("Azuki #1681")
                                             .padding(.leading, 1.0)
                                         Spacer()
-                                        Text("125Ξ")
+                                        Text("24Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                            }
+                            HStack {
+                                VStack {
+                                    Image("AZUKI3744")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("Azuki #3744")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("24Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                                VStack {
+                                    Image("AZUKI5572")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("Azuki #5572")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("24.87Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                            }
+                            HStack {
+                                VStack {
+                                    Image("AZUKI4926")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("Azuki #4926")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("24.88Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                                VStack {
+                                    Image("AZUKI7702")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("Azuki #7702")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("24.88Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                            }
+                            HStack {
+                                VStack {
+                                    Image("AZUKI3708")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("Azuki #3708")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("24.88Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                                VStack {
+                                    Image("AZUKI4891")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("Azuki #4891")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("24.88Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                            }
+                            HStack {
+                                VStack {
+                                    Image("AZUKI6046")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("Azuki #6046")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("24.95Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                                VStack {
+                                    Image("AZUKI1787")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("Azuki #1787")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("24.99Ξ")
                                             .padding(.trailing, 1.0)
                                     }.frame(width: 175)
                                 }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)

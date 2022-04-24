@@ -53,55 +53,27 @@ struct MutantApeYachtClubView : View {
                         ForEach(0..<1) {_ in
                             HStack {
                                 VStack {
-                                    Image("bayc2849")
+                                    Image("MAYC16040")
                                         .resizable()
                                         .frame(width: 175, height: 175)
                                     HStack {
-                                        Text("BAYC #2849")
+                                        Text("MAYC #16040")
                                             .padding(.leading, 1.0)
                                         Spacer()
-                                        Text("125Ξ")
+                                        Text("35.25Ξ")
                                             .padding(.trailing, 1.0)
                                     }.frame(width: 175)
                                 }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
                                 .padding(5)
                                 VStack {
-                                    Image("bayc2849")
+                                    Image("MAYC8786")
                                         .resizable()
                                         .frame(width: 175, height: 175)
                                     HStack {
-                                        Text("BAYC #2849")
+                                        Text("MAYC #8786")
                                             .padding(.leading, 1.0)
                                         Spacer()
-                                        Text("125Ξ")
-                                            .padding(.trailing, 1.0)
-                                    }.frame(width: 175)
-                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
-                                .padding(5)
-                            }
-                            HStack {
-                                VStack {
-                                    Image("bayc2849")
-                                        .resizable()
-                                        .frame(width: 175, height: 175)
-                                    HStack {
-                                        Text("BAYC #2849")
-                                            .padding(.leading, 1.0)
-                                        Spacer()
-                                        Text("125Ξ")
-                                            .padding(.trailing, 1.0)
-                                    }.frame(width: 175)
-                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
-                                .padding(5)
-                                VStack {
-                                    Image("bayc2849")
-                                        .resizable()
-                                        .frame(width: 175, height: 175)
-                                    HStack {
-                                        Text("BAYC #2849")
-                                            .padding(.leading, 1.0)
-                                        Spacer()
-                                        Text("125Ξ")
+                                        Text("35.42Ξ")
                                             .padding(.trailing, 1.0)
                                     }.frame(width: 175)
                                 }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
@@ -109,27 +81,139 @@ struct MutantApeYachtClubView : View {
                             }
                             HStack {
                                 VStack {
-                                    Image("bayc2849")
+                                    Image("MAYC12592")
                                         .resizable()
                                         .frame(width: 175, height: 175)
                                     HStack {
-                                        Text("BAYC #2849")
+                                        Text("MAYC #12592")
                                             .padding(.leading, 1.0)
                                         Spacer()
-                                        Text("125Ξ")
+                                        Text("35.5Ξ")
                                             .padding(.trailing, 1.0)
                                     }.frame(width: 175)
                                 }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
                                 .padding(5)
                                 VStack {
-                                    Image("bayc2849")
+                                    Image("MAYC13608")
                                         .resizable()
                                         .frame(width: 175, height: 175)
                                     HStack {
-                                        Text("BAYC #2849")
+                                        Text("MAYC #13608")
                                             .padding(.leading, 1.0)
                                         Spacer()
-                                        Text("125Ξ")
+                                        Text("35.7Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                            }
+                            HStack {
+                                VStack {
+                                    Image("MAYC23890")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("MAYC #23890")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("35.75Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                                VStack {
+                                    Image("MAYC2459")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("MAYC #2459")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("36Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                            }
+                            HStack {
+                                VStack {
+                                    Image("MAYC2448")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("MAYC #2448")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("36Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(Color.black)
+                                .padding(5)
+                                VStack {
+                                    Image("MAYC668")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("MAYC #668")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("36.4Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                            }
+                            HStack {
+                                VStack {
+                                    Image("MAYC1036")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("MAYC #1036")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("36.5Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(Color.black)
+                                .padding(5)
+                                VStack {
+                                    Image("MAYC20204")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("MAYC #20204")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("36.55Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
+                                .padding(5)
+                            }
+                            HStack {
+                                VStack {
+                                    Image("MAYC666")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("MAYC #666")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("36.66Ξ")
+                                            .padding(.trailing, 1.0)
+                                    }.frame(width: 175)
+                                }.border(Color.black)
+                                .padding(5)
+                                VStack {
+                                    Image("MAYC15970")
+                                        .resizable()
+                                        .frame(width: 175, height: 175)
+                                    HStack {
+                                        Text("MAYC #15970")
+                                            .padding(.leading, 1.0)
+                                        Spacer()
+                                        Text("36.69Ξ")
                                             .padding(.trailing, 1.0)
                                     }.frame(width: 175)
                                 }.border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/)
