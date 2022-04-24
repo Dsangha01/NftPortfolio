@@ -31,18 +31,18 @@ struct ClonexView : View {
                         .font(.title)
                         .multilineTextAlignment(.center)
                     HStack {
-                        Text("Floor Price: 109.5Ξ")
+                        Text("Floor Price: 17.6Ξ")
                             .bold()
                             .frame(width: 125, height: 50)
-                        Text("Volume: 5486.09Ξ")
+                        Text("Volume: 5,684.85Ξ")
                             .bold()
                             .frame(width: 125, height: 50)
                     }
                     HStack {
-                        Text("24h % -36.12%")
+                        Text("24h % -17.76%")
                             .bold()
                             .frame(width: 125, height: 50)
-                        Text("7d % -4.63%")
+                        Text("7d % +58.09%")
                             .bold()
                             .frame(width: 125, height: 50)
                     }

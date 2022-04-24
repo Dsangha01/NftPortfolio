@@ -83,18 +83,18 @@ struct BoredApeYachtClubView : View {
                         .bold()
                         .font(.title)
                     HStack {
-                        Text("Floor Price: 109.5Ξ")
+                        Text("Floor Price: 135Ξ")
                             .bold()
                             .frame(width: 125, height: 50)
-                        Text("Volume: 5486.09Ξ")
+                        Text("Volume: 12,882.03Ξ")
                             .bold()
                             .frame(width: 125, height: 50)
                     }
                     HStack {
-                        Text("24h % -36.12%")
+                        Text("24h % +106.44%")
                             .bold()
                             .frame(width: 125, height: 50)
-                        Text("7d % -4.63%")
+                        Text("7d % +134.81%")
                             .bold()
                             .frame(width: 125, height: 50)
                     }

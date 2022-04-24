@@ -30,18 +30,18 @@ struct DoodlesView : View {
                         .bold()
                         .font(.title)
                     HStack {
-                        Text("Floor Price: 109.5Ξ")
+                        Text("Floor Price: 14.94Ξ")
                             .bold()
                             .frame(width: 125, height: 50)
-                        Text("Volume: 5486.09Ξ")
+                        Text("Volume: 1,667.97Ξ")
                             .bold()
                             .frame(width: 125, height: 50)
                     }
                     HStack {
-                        Text("24h % -36.12%")
+                        Text("24h % -21.30%")
                             .bold()
                             .frame(width: 125, height: 50)
-                        Text("7d % -4.63%")
+                        Text("7d % -23.83%")
                             .bold()
                             .frame(width: 125, height: 50)
                     }

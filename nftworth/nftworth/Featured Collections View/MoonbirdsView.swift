@@ -30,18 +30,18 @@ struct MoonbirdsView : View {
                         .bold()
                         .font(.title)
                     HStack {
-                        Text("Floor Price: 109.5Ξ")
+                        Text("Floor Price: 35.9Ξ")
                             .bold()
                             .frame(width: 125, height: 50)
-                        Text("Volume: 5486.09Ξ")
+                        Text("Volume: 69,486.2Ξ")
                             .bold()
                             .frame(width: 125, height: 50)
                     }
                     HStack {
-                        Text("24h % -36.12%")
+                        Text("24h % +10.48%")
                             .bold()
                             .frame(width: 125, height: 50)
-                        Text("7d % -4.63%")
+                        Text("7d % +72.84%")
                             .bold()
                             .frame(width: 125, height: 50)
                     }

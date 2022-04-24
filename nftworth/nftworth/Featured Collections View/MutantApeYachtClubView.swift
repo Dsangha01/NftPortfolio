@@ -30,18 +30,18 @@ struct MutantApeYachtClubView : View {
                         .bold()
                         .font(.title)
                     HStack {
-                        Text("Floor Price: 109.5Ξ")
+                        Text("Floor Price: 35.5Ξ")
                             .bold()
                             .frame(width: 125, height: 50)
-                        Text("Volume: 5486.09Ξ")
+                        Text("Volume: 20,220.82Ξ")
                             .bold()
                             .frame(width: 125, height: 50)
                     }
                     HStack {
-                        Text("24h % -36.12%")
+                        Text("24h % +88.64%")
                             .bold()
                             .frame(width: 125, height: 50)
-                        Text("7d % -4.63%")
+                        Text("7d % +263.04%")
                             .bold()
                             .frame(width: 125, height: 50)
                     }

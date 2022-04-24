@@ -30,18 +30,18 @@ struct AzukiView : View {
                         .bold()
                         .font(.title)
                     HStack {
-                        Text("Floor Price: 109.5Ξ")
+                        Text("Floor Price: 23.8Ξ")
                             .bold()
                             .frame(width: 125, height: 50)
-                        Text("Volume: 5486.09Ξ")
+                        Text("Volume: 4,222.49Ξ")
                             .bold()
                             .frame(width: 125, height: 50)
                     }
                     HStack {
-                        Text("24h % -36.12%")
+                        Text("24h % +7.94%")
                             .bold()
                             .frame(width: 125, height: 50)
-                        Text("7d % -4.63%")
+                        Text("7d % -19.01%")
                             .bold()
                             .frame(width: 125, height: 50)
                     }
